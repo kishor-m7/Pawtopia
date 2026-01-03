@@ -1,0 +1,190 @@
+.home-container {
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  background-image: url("../assets/1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+.home-header {
+  background-color: #e4a40f;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  position: relative;
+}
+
+.home-header h1 {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: background-color, transform 0.5s;
+}
+.home-links:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.02);
+}
+
+.home-links a {
+  text-decoration: none;
+  color: #333;
+  background-color: #ffe18d;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color, transform 0.3s ease;
+}
+
+.home-links a:hover {
+  background-color: #ffc04d;
+  transform: scale(1.04);
+}
+
+.info-section1 {
+  padding: 50px 30px;
+  justify-content: center;
+  margin-left: 200px;
+
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: background-color, transform 0.5s;
+}
+.info-section1:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.03);
+}
+
+.info-section1 h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* PET CARE CONTENT */
+.pet-care-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  transition: hover ease-in-out;
+}
+
+.pet-care-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.pet-care-text p {
+  margin-bottom: 15px;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+.pet-care-images {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.pet-care-images img {
+  width: 150px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.pet-care-images img:hover {
+  transform: scale(1.05);
+}
+
+.info-box {
+  background-color: #fdf9ef;
+  padding: 25px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.info-section2 {
+  padding: 50px 30px;
+  margin-left: 200px;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  margin-top: 30px;
+
+  margin-right: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: background-color, transform 0.5s;
+}
+.info-section2:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.03);
+}
+
+.info-section2 h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.info-section3 {
+  padding: 50px 30px;
+  margin-left: 200px;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  margin-top: 30px;
+
+  margin-right: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: background-color, transform 0.5s;
+}
+.info-section3:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.03);
+}
+
+.info-section3 h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #333;
+}
